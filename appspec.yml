@@ -1,14 +1,6 @@
-version: 0.2
+version: 0.0
+os: linux
 
-phases:
-  install:
-    commands:
-      - echo Installing
-
-  build:
-    commands:
-      - echo Building
-
-artifacts:
-  files:
-    - '**/*'
+files:
+  - source: /
+    destination: /var/www/html
